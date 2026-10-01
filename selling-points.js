@@ -147,6 +147,14 @@ const sellingPoints = [
     map: ""
   },
    {
+    name: "Amani Beauty Lounge & Bridal",
+    governorate: "اربد",
+    area: "اربد",
+    type: "صالون",
+    phone: "0797252025",
+    map: "https://maps.app.goo.gl/YhAsbHNf4NvNwKy1A"
+  },
+   {
     name: "Maysaa Beauty Queen",
     governorate: "الرمثا",
     area: "الرمثا",
