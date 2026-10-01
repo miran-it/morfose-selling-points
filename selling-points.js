@@ -15,7 +15,7 @@ const sellingPoints = [
     area: "الصويفية",
     type: "صالون",
     phone: "0777710030",
-    map: ""
+    map: "https://maps.app.goo.gl/yKNrVQpGBdv7fpXh7"
   },
 
   {
@@ -24,7 +24,7 @@ const sellingPoints = [
     area: "الصويفية",
     type: "صالون",
     phone: "0790148256",
-    map: ""
+    map: "https://maps.app.goo.gl/aawrHtvhccmAunkg6"
   },
    {
     name: "صالون حمادة للسيدات",
@@ -32,7 +32,7 @@ const sellingPoints = [
     area: "الصويفية",
     type: "صالون",
     phone: "0797809090",
-    map: ""
+    map: "https://maps.app.goo.gl/Pb27Tcnh1zH1Hfz56"
   },
    {
     name: "صالون سحر عبدالله",
@@ -48,7 +48,7 @@ const sellingPoints = [
     area: "خلدا",
     type: "صالون",
     phone: "0791909097",
-    map: ""
+    map: "https://maps.app.goo.gl/mfoqbd5nrjPgyuYE8"
   },
    {
     name: "M Beauty Salon",
@@ -56,7 +56,7 @@ const sellingPoints = [
     area: "خلدا",
     type: "صالون",
     phone: "0792281500",
-    map: ""
+    map: "https://maps.app.goo.gl/AodcJynwKWZxZcRC7"
   },
    {
     name: "Jolie Femme Salon",
@@ -64,7 +64,7 @@ const sellingPoints = [
     area: "عبدون",
     type: "صالون",
     phone: "0777861097",
-    map: ""
+    map: "https://maps.app.goo.gl/bFXcvT1t85NXRgA39"
   },
    {
     name: "مؤسسة كراميل للتجميل",
@@ -72,7 +72,7 @@ const sellingPoints = [
     area: "شارع الجاردنز",
     type: "مؤسسة للتجميل",
     phone: "0797000557",
-    map: ""
+    map: "https://maps.app.goo.gl/aS2Pw2w2DmC25Jh99"
   },
    {
     name: "صالون نادين للسيدات",
@@ -80,7 +80,7 @@ const sellingPoints = [
     area: "الدوار الثامن",
     type: "صالون",
     phone: "0785629497",
-    map: ""
+    map: "https://maps.app.goo.gl/h1aBwj7SJfLBrUKi9"
   },
    {
     name: "صالون لابوتيه للسيدات",
@@ -96,7 +96,7 @@ const sellingPoints = [
     area: "أم أذينة",
     type: "صالون",
     phone: "0795666441",
-    map: ""
+    map: "https://maps.app.goo.gl/vytKirBp6ii5UdXG8"
   },
    {
     name: "Mojo Beauty Magicians",
@@ -104,7 +104,7 @@ const sellingPoints = [
     area: "شارع مكة",
     type: "صالون",
     phone: "0792061666",
-    map: ""
+    map: "https://maps.app.goo.gl/PiET1jWGpfaNoA4XA"
   },
    {
     name: "Boons Spa",
@@ -112,7 +112,7 @@ const sellingPoints = [
     area: "الدوار السابع",
     type: "صالون",
     phone: "0798588650",
-    map: ""
+    map: "https://maps.app.goo.gl/mQKpQS9TuBn5ajmB7"
   },
    {
     name: "Sahar Kanaan Beauty Lounge",
@@ -120,7 +120,7 @@ const sellingPoints = [
     area: "الكوم",
     type: "صالون",
     phone: "0797963030",
-    map: ""
+    map: "https://maps.app.goo.gl/gc6f6r9WJhxMT5vf7"
   },
    {
     name: "Beauty Spot Lounge Salon",
@@ -128,7 +128,7 @@ const sellingPoints = [
     area: "ضاحية الأمير راشد",
     type: "صالون",
     phone: "0795335601",
-    map: ""
+    map: "https://maps.app.goo.gl/eXag2PLWECsC8eDz7"
   },
    {
     name: "Shortcut Beauty Lounge",
@@ -136,7 +136,7 @@ const sellingPoints = [
     area: "ضاحية الأمير راشد",
     type: "صالون",
     phone: "0799512131",
-    map: ""
+    map: "https://maps.app.goo.gl/UsxuLSM2xNTp3Kyc8"
   },
    {
     name: "Mood Hair Salon",
@@ -152,7 +152,7 @@ const sellingPoints = [
     area: "الرمثا",
     type: "صالون",
     phone: "0799870222",
-    map: ""
+    map: "https://maps.app.goo.gl/iuxyfA7SqNcgpBpi9"
   },
    {
     name: "Raad Farraj Beauty Salon",
@@ -160,7 +160,7 @@ const sellingPoints = [
     area: "مادبا",
     type: "صالون",
     phone: "0779778080",
-    map: ""
+    map: "https://maps.app.goo.gl/S2WpxJVpD2RfrGct8"
   },
    {
     name: "Saja Nails & Spa",
@@ -168,6 +168,6 @@ const sellingPoints = [
     area: "الزرقاء",
     type: "صالون",
     phone: "0799655313",
-    map: ""
+    map: "https://maps.app.goo.gl/oFmX2BMwTGwaR6By9"
   }
 ];
