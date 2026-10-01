@@ -1,1 +1,403 @@
+:root {
+  --black: #0b0b0b;
+  --white: #ffffff;
+  --yellow: #f9bc2d;
+  --text: #171717;
+  --muted: #6f6f6f;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --border: rgba(0, 0, 0, 0.06);
+  --shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+}
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: "Tajawal", sans-serif;
+  color: var(--text);
+
+  background: #f5f5f5;
+}
+
+.page {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+
+  padding:
+    calc(env(safe-area-inset-top) + 24px)
+    14px
+    48px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+
+  width: min(84%, 360px);
+  height: auto;
+
+  margin: 0 auto 24px;
+}
+
+.hero-card {
+  padding: 26px 20px;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  border: 1px solid rgba(255, 255, 255, 0.8);
+
+  border-radius: 24px;
+
+  box-shadow: var(--shadow);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.eyebrow {
+  display: inline-flex;
+
+  margin-bottom: 14px;
+
+  padding: 7px 13px;
+
+  background: rgba(249, 188, 45, 0.16);
+
+  border-radius: 999px;
+
+  color: #8c6500;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin: 0;
+
+  color: var(--black);
+
+  font-size: clamp(28px, 8vw, 42px);
+  font-weight: 800;
+
+  line-height: 1.25;
+}
+
+.hero p {
+  max-width: 430px;
+
+  margin: 11px auto 0;
+
+  color: var(--muted);
+
+  font-size: 15px;
+
+  line-height: 1.9;
+}
+
+/* =========================
+   SEARCH
+========================= */
+
+.search-section {
+  position: sticky;
+
+  top: 10px;
+
+  z-index: 20;
+
+  margin-top: 18px;
+}
+
+.search-box {
+  padding: 3px;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border: 1px solid var(--border);
+
+  border-radius: 18px;
+
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.07);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.search-box input {
+  width: 100%;
+
+  border: 0;
+  outline: 0;
+
+  border-radius: 15px;
+
+  padding: 15px 16px;
+
+  background: transparent;
+
+  font-family: "Tajawal", sans-serif;
+
+  font-size: 15px;
+
+  color: var(--black);
+}
+
+.search-box input::placeholder {
+  color: #929292;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+#sellingPointsContainer {
+  margin-top: 30px;
+}
+
+.governorate {
+  margin-top: 38px;
+}
+
+.governorate:first-child {
+  margin-top: 0;
+}
+
+.governorate-title {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  margin: 0 2px 18px;
+
+  color: var(--black);
+
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.governorate-title::before {
+  content: "";
+
+  width: 5px;
+  height: 26px;
+
+  border-radius: 999px;
+
+  background: var(--yellow);
+}
+
+.area {
+  margin-bottom: 28px;
+}
+
+.area-title {
+  margin: 0 4px 12px;
+
+  color: #595959;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.selling-card {
+  position: relative;
+
+  overflow: hidden;
+
+  margin-bottom: 12px;
+
+  padding: 18px;
+
+  background: var(--card-bg);
+
+  border: 1px solid rgba(255, 255, 255, 0.82);
+
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.selling-card::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  width: 4px;
+  height: 100%;
+
+  background: var(--yellow);
+}
+
+.selling-card h3 {
+  margin: 0 0 10px;
+
+  color: var(--black);
+
+  font-size: 18px;
+  font-weight: 800;
+
+  line-height: 1.5;
+}
+
+.type-badge {
+  display: inline-flex;
+
+  margin-bottom: 10px;
+
+  padding: 5px 10px;
+
+  background: #f1f1f1;
+
+  border-radius: 999px;
+
+  color: #555;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card-info {
+  color: var(--muted);
+
+  font-size: 14px;
+
+  line-height: 1.9;
+}
+
+.actions {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 9px;
+
+  margin-top: 16px;
+}
+
+.btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 44px;
+
+  border-radius: 13px;
+
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-map {
+  background: var(--black);
+
+  color: var(--white);
+}
+
+.btn-call {
+  background: var(--yellow);
+
+  color: #161616;
+}
+
+/* =========================
+   STATES
+========================= */
+
+.message-box {
+  padding: 34px 16px;
+
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.88);
+
+  border-radius: 18px;
+
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+
+  color: var(--muted);
+
+  font-size: 14px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  margin-top: 44px;
+
+  padding: 22px 10px 10px;
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  font-size: 12px;
+}
+
+/* =========================
+   TABLET / DESKTOP
+========================= */
+
+@media (min-width: 700px) {
+  .page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-card {
+    padding: 34px 30px;
+  }
+
+  .selling-card {
+    padding: 22px;
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .selling-card:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 16px 38px rgba(0, 0, 0, 0.11);
+  }
+}
