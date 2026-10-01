@@ -6,7 +6,7 @@ const sellingPoints = [
     area: "الصويفية",
     type: "صالون",
     phone: "0799523203",
-    map: ""
+    map: "maps.google.com/?q=31.950645%2C35.859673"
   },
 
   {
