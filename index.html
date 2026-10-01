@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>نقاط البيع | Morfose</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <main class="page">
+
+    <header class="hero">
+
+      <img
+        class="logo"
+        src="assets/logo.png"
+        alt="Morfose"
+      >
+
+      <div class="hero-card">
+        <span class="eyebrow">نقاط البيع المعتمدة</span>
+
+        <h1>وين بتلاقي مورفوس؟</h1>
+
+        <p>
+          اكتشف أقرب نقطة بيع لمنتجات مورفوس حسب المنطقة أو اسم نقطة البيع.
+        </p>
+      </div>
+
+    </header>
+
+    <section class="search-section">
+
+      <div class="search-box">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="ابحث عن منطقة أو نقطة بيع..."
+          autocomplete="off"
+        >
+      </div>
+
+    </section>
+
+    <section id="sellingPointsContainer">
+      <!-- Selling points will appear here -->
+    </section>
+
+    <footer class="footer">
+      يتم تحديث نقاط البيع باستمرار
+    </footer>
+
+  </main>
+
+  <script src="selling-points.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
