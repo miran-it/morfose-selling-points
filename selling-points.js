@@ -1,6 +1,14 @@
 
 const sellingPoints = [
   {
+    name: "Faris & Hamzeh Salon",
+    governorate: "عمان",
+    area: "أم أذينة",
+    type: "صالون",
+    phone: "0795666441",
+    map: "https://maps.app.goo.gl/vytKirBp6ii5UdXG8"
+  },
+  {
     name: "The Moon Salon",
     governorate: "عمان",
     area: "الصويفية",
@@ -89,14 +97,6 @@ const sellingPoints = [
     type: "صالون",
     phone: "0795116321",
     map: ""
-  },
-   {
-    name: "Faris & Hamzeh Salon",
-    governorate: "عمان",
-    area: "أم أذينة",
-    type: "صالون",
-    phone: "0795666441",
-    map: "https://maps.app.goo.gl/vytKirBp6ii5UdXG8"
   },
    {
     name: "Mojo Beauty Magicians",
